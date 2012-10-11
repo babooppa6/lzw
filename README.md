@@ -9,8 +9,11 @@ Briefly, the LZW compression algorithm involves keeping a string table of all by
 (Note: this process has been minimally tested on Linux and Mac OS X, YMMV)
 
 To build the binaries `encode` and `decode`:
+
 `$ git clone https://github.com/geoffreylitt/lzw.git`
+
 `$ cd lzw/src`
+
 `$ make`
 
 You will then find `encode` and `decode` in `lzw/bin`. You may want to add them to your PATH for convenience.
