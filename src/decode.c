@@ -22,7 +22,7 @@ void decode(){
     exit(EXIT_FAILURE);
   }
 
-	int code, oldcode, newcode, nbits;
+  int code, oldcode, newcode, nbits;
   int timer = 1;
   int finalkar = 0;
   int justpruned = 0;
